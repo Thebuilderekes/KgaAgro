@@ -411,7 +411,7 @@ color: rgb(255, 0, 0);
   }
 
   .jumbo-box {
-    margin-top: 300px;
+    margin-top: 30px;
   }
 
   .pre-jumbo {
@@ -448,9 +448,6 @@ color: rgb(255, 0, 0);
     text-align: center;
   }
 
-  .hero-text {
-    width: 100%;
-  }
 
   .kga-services {
     width: 100%;
@@ -521,7 +518,13 @@ color: rgb(255, 0, 0);
 
 .design-attribute p {
 
-  font-size: 16px;
+  font-size: 7px;
+}
+
+
+.about-section {
+
+  margin-top: 2 ;
 }
 }
 
