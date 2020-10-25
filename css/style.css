@@ -107,6 +107,7 @@ a {
   font-size: 22px;
   font-family: "Lato";
   font-weight: 700;
+  
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -261,7 +262,7 @@ a {
   display: flex;
   background-color: rgb(27, 24, 14);
   width: 100%;
-  height: 300px;
+  height:380px;
 }
 
 .kga-footer h2 {
@@ -275,7 +276,7 @@ a {
 }
 
 .contact-section{
-
+   width: 50%;
   margin: 50px 0 0 50px;
 }
 .contact p {
@@ -349,22 +350,55 @@ p {
 span {
   width: 10%;
 }
-/*------------------------------------------------*/
-/* MEDIA QUERIES CODES */
+
+.design-attribute p {
+
+color: rgb(255, 0, 0);
+}
+
+.design-attribute {
+  margin: 50px 0 0 300px;
+  width: 100%;
+} 
+
+.attribute {
+
+  color: white;
+}
+/*------------------------------------------------ */
+/* MEDIA QUERIES CODES                             */
 /*------------------------------------------------*/
 
 /* iphone 6/7/8 and galaxy s5 */
 @media only screen and (min-device-width: 360px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
 
 
+
+ 
+  .nav-link {
+
+    font-size: 12px;
+  }
   .logo {
-    width: 150px;
-    height: 100px;
+    width: 100px;
+    height: 70px;
+  }
+
+  .hero-section {
+
+    margin-top: 100px;
   }
   .hero-text1,
   .hero-text2 {
     font-size: 20px;
     width: 100%;
+  }
+
+  .gallery-img 
+  {
+    width: 300px;
+    height: 200px;
+    margin-left: 35px;
   }
 
   .hero-text {
@@ -434,10 +468,15 @@ span {
     height: 100px;
   }
 
+
+  .map {
+
+    margin: auto;
+  }
   .kga-footer{
 
     width: 100%;
-    height: 500px;
+    height: 350px;
   }
 
   .contact-section p,
@@ -475,17 +514,70 @@ span {
   margin: 0 0 0 5px;
 }
 
+.design-attribute {
+  margin: 5px 0 0 10px;
+  width: 100%;
+} 
+
+.design-attribute p {
+
+  font-size: 16px;
+}
 }
 
 /* Portrait and Landscape */
 
 /* Landscape */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+
+  .nav-link {
+
+    font-size: 15px;
+  }
+
+
+  .nav-link {
+    margin-left: 100px;
+    background-color: rgba(25, 20, 71, 0.651);
+    border-radius: 10px;
+  }
+
   .hero-text1,
   .hero-text2 {
     font-size: 20px;
     width: 100%;
   }
+
+
+  .jumbo-box {
+    margin-top: 200px;
+  }
+    .jumbo-services {
+
+      height: -1000px;
+    }
+  .gallery-img {
+
+    width: 200px;
+    height: 100px;
+  
+  }
+
+  .logo {
+
+    width: 150px;
+    height: 100px;
+  }
+
+
+
+  .social li {
+
+    margin-left: -10px;
+  }
+  
+
+  
 }
 
 
