@@ -16,7 +16,6 @@ html {
 body {
   background: url(../images/mainbackground.jpg);
   background-repeat: no-repeat;
-  /*background-size: cover;*/
   width: 100%;
   height: 100vh;
   max-width: 100%;
@@ -30,11 +29,6 @@ body {
   height: 100vh;
 }
 
-#overlay-footer {
-  background-color: rgba(0, 0, 0, 0.5);
-  width: 100%;
-  height: 800px;
-}
 .hero-section {
   display: flex;
   width: 100%;
@@ -61,6 +55,12 @@ body {
 .space2 {
   width: 10%;
 }
+
+.fancy-text {
+  color: rgb(238, 238, 41);
+}
+
+
 .jumbotron {
   background-color: rgba(14, 14, 27, 0.527);
   width: 80%;
@@ -76,7 +76,6 @@ h2 {
   text-align: center;
 }
 
-
 /*----------------------------------------*/
 /*  NAVBAR CODES                          */
 /*----------------------------------------*/
@@ -85,9 +84,11 @@ h2 {
   margin: 20px 5px 10px 0;
 }
 .navbar li {
-  padding-left: 20px;
+  padding-left: 15px;
   font-family: "Lato";
   display: inline-block;
+  text-transform: uppercase;
+  font-size: 10px;
 }
 .navbar li a:link,
 .navbar li a:visited {
@@ -104,12 +105,16 @@ h2 {
 
 a {
   color: rgb(179, 13, 13);
-  font-size: 22px;
+  font-size: 20px;
   font-family: "Lato";
   font-weight: 700;
   
 }
 
+.offers a {
+  text-decoration: none;
+
+}
 .navbar-dark .navbar-nav .nav-link {
   color: white;
 }
@@ -173,7 +178,7 @@ a {
 .navbar-gallery {
   float: right;
 }
-/* Gallery header */
+
 
 .gallery {
   font-family: "Lato";
@@ -211,7 +216,7 @@ a {
 /*   SERVICES SECTION CODES */
 /*------------------------------------------------*/
 .kga-services {
-  background-color: rgb(82, 73, 43);
+  background-color: rgb(80, 77, 77);
   width: 100%;
   height: 700px;
   font-family: "Lato";
@@ -238,8 +243,9 @@ a {
 
 .kga-services p {
   color: rgb(251, 251, 251);
-  font-size: 22px;
+  font-size: 20px;
   text-align: center;
+  font-family: 'Montserrat';
 }
 .eggs-section,
 .layers-section,
@@ -248,7 +254,10 @@ a {
   margin-top: 50px;
   overflow: hidden;
 }
+.enquiries {
 
+ font-size: 22px;
+}
 .empty-space {
   width: 100%;
   height: 300px;
@@ -260,27 +269,28 @@ a {
 /*------------------------------------------------*/
 .kga-footer {
   display: flex;
-  background-color: rgb(27, 24, 14);
+  background-color: rgb(15, 15, 14);
   width: 100%;
-  height:380px;
+  height: 380px;
 }
 
-.kga-footer h2 {
+.kga-footer h3 {
   color: orange;
+  
+  font-family: 'Montserrat';
 }
 
 .kga-footer p {
-
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Montserrat';
   font-size: 18px;
 }
 
-.contact-section{
-   width: 50%;
+
+.contact-section {
+  width: 50%;
   margin: 50px 0 0 50px;
 }
 .contact p {
-
   float: left;
 }
 .social-links {
@@ -289,28 +299,21 @@ a {
   overflow: hidden;
 }
 .social {
-
   display: inline;
   margin-bottom: 20px;
 }
 
-
 .social-links li {
   text-decoration: none;
-  margin-left: 50px;
+  margin-left: 10px;
 }
-
 
 p {
   color: white;
 }
 
 .social-link ul {
-
-      list-style: none;
-      
-  
-
+  list-style: none;
 }
 .fa {
   padding: 20px;
@@ -321,62 +324,66 @@ p {
 }
 
 /* Add a hover effect if you want */
-.fa:hover {
-  opacity: 0.7;
+.fa:hover, .fa-facebook:hover {
+  background-color: white;
 }
 
 .fa-facebook {
-  background: #3B5998;
+  background: #3b5998;
   color: white;
   text-decoration: none;
 }
 
+i {
 
+  font: 10px;
+}
 .fa-twitter {
-  background: #55ACEE;
+  background: #55acee;
   color: white;
   text-decoration: none;
 }
 .fa-facebook a {
+  text-decoration: none;
+}
+.fa-twitter a {
 
   text-decoration: none;
 }
 
-.fa a {
 
-  text-decoration: none;
+.fa-facebook  
+{
+
+  font-size: 10px;
 }
-
 span {
   width: 10%;
 }
 
 .design-attribute p {
-
-color: rgb(255, 0, 0);
+  color: rgb(248, 248, 248);
 }
 
 .design-attribute {
-  margin: 50px 0 0 300px;
+  margin: 100px 0 0 300px;
   width: 100%;
-} 
+}
+.design-attribute a {
 
+  text-decoration: none;
+}
 .attribute {
-
   color: white;
+  font-style: italic;
 }
 /*------------------------------------------------ */
 /* MEDIA QUERIES CODES                             */
 /*------------------------------------------------*/
 
 /* iphone 6/7/8 and galaxy s5 */
-@media only screen and (min-device-width: 360px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
-
-
-
- 
+@media only screen and (min-width: 300px) and (max-width: 700px) and (-webkit-min-device-pixel-ratio: 2) {
   .nav-link {
-
     font-size: 12px;
   }
   .logo {
@@ -385,7 +392,6 @@ color: rgb(255, 0, 0);
   }
 
   .hero-section {
-
     margin-top: 100px;
   }
   .hero-text1,
@@ -394,8 +400,7 @@ color: rgb(255, 0, 0);
     width: 100%;
   }
 
-  .gallery-img 
-  {
+  .gallery-img {
     width: 300px;
     height: 200px;
     margin-left: 35px;
@@ -404,10 +409,10 @@ color: rgb(255, 0, 0);
   .hero-text {
     margin: 70px 0 0 -10px;
     width: 100%;
-
   }
-  a {
-    font-size: 15px;
+  .designer {
+    /* footer link for designer */
+    font-size: 10px;
   }
 
   .jumbo-box {
@@ -443,11 +448,9 @@ color: rgb(255, 0, 0);
   }
 
   .kga-services h2,
-
   p {
     text-align: center;
   }
-
 
   .kga-services {
     width: 100%;
@@ -456,8 +459,7 @@ color: rgb(255, 0, 0);
     overflow: hidden;
   }
 
-  .eggs-section{
-
+  .eggs-section {
     margin-top: -30px;
   }
   .empty-space {
@@ -465,122 +467,149 @@ color: rgb(255, 0, 0);
     height: 100px;
   }
 
-
   .map {
+    margin-right: 800px;
 
-    margin: auto;
   }
-  .kga-footer{
-
+  .kga-footer {
     width: 100%;
-    height: 350px;
+    height: 280px;
   }
 
   .contact-section p,
-.social-links p {
- 
-  font-size: 7px;
-}
+  .social-links p {
+    font-size: 7px;
+  }
 
-.kga-footer h2 {
+  .kga-footer h3 {
+    font-size: 10px;
+  }
 
-  font-size: 10px;
-}
+  .fa-facebook,
+  .fa-twitter {
+    font-size: 5px;
+  }
 
-.fa-facebook, .fa-twitter {
- font-size: 5px;
-}
+  .fa-facebook {
+    
+    width: 10px;
+    height: 15px;
+    padding: 5px 15px 15px 5px;
+  }
 
+  .fa-twitter {
+    width: 10px;
+    height: 15px;
+    padding: 3px 16px 15px 5px;
+  }
 
-.fa-facebook {
-  width: 10px;
-  height: 15px;
-  padding: 5px 15px 15px 5px;
+  .social li {
+    margin: 0 0 0 5px;
+  }
 
-}
+  .enquiries {
+    font-size: 16px;
+  }
 
-.fa-twitter {
-  
-  width: 10px;
-  height: 15px;
-  padding: 3px 16px 15px 5px;
-}
+  .design-attribute {
+    margin: 50px 0 0 10px;
+    width: 100%;
+    
+  }
 
-.social li {
+  .design-attribute p {
+    font-size: 7px;
+    float: left;
+  }
 
-  margin: 0 0 0 5px;
-}
-
-.design-attribute {
-  margin: 5px 0 0 10px;
-  width: 100%;
-} 
-
-.design-attribute p {
-
-  font-size: 7px;
-}
-
-
-.about-section {
-
-  margin-top: 2 ;
-}
+   
 }
 
 /* Portrait and Landscape */
 
 /* Landscape */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
-
-  .nav-link {
-
-    font-size: 15px;
-  }
-
-
-  .nav-link {
-    margin-left: 100px;
-    background-color: rgba(25, 20, 71, 0.651);
-    border-radius: 10px;
-  }
-
-  .hero-text1,
-  .hero-text2 {
-    font-size: 20px;
-    width: 100%;
-  }
-
-
-  .jumbo-box {
-    margin-top: 200px;
-  }
-    .jumbo-services {
-
-      height: -1000px;
-    }
-  .gallery-img {
-
-    width: 200px;
-    height: 100px;
-  
-  }
+@media only screen and (min-width: 700px) and (max-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
 
   .logo {
-
     width: 150px;
     height: 100px;
   }
+  .nav-link {
+    font-size: 15px;
+  }
 
+  .nav-link {
+    margin-left: 100px;
+    
+    border-radius: 10px;
+  }
 
+  .hero-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .hero-text1,
+  .hero-text2 {
+    font-size: 25px;
+    width: 100%;
+  }
+  .kga-services h2 {
 
-  .social li {
+    font-size: 17px;
+   }
+  .jumbo-box {
+    margin-top: 200px;
+  }
+  
+  .jumbotron{
+    margin-top: -30px;
+    width: 100%;
+    height: 100%
+  }
 
-    margin-left: -10px;
+  .jumbotron p{
+
+    font-size: 15px;
   }
   
 
+  .gmnoprint {
+
+    margin-left: 50px;
+  }
+    .kga-footer{
+      height: 300px;
+    }
+  .kga-footer h3 {
+    font-size: 18px;
+  }
+   .kga-footer p {
+     font-size: 15px;
+   }
+
+  .social li {
+    margin-left: -10px;
+  }
+    .fa {
+
+    font-size: 10px;
+   }
+  .design-attribute {
+    margin: 50px 5px 0 120px;
+    width: 100%;
+  }
   
+  .design-attribute p {
+
+    font-size: 15px;
+  }
+  .designer{
+   font-size: 16px;
+  }
+  .gallery-img {
+    width: 200px;
+    height: 100px;
+  }
+
 }
-
-
