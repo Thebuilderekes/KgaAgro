@@ -104,7 +104,7 @@ h2 {
 }
 
 a {
-  color: rgb(179, 13, 13);
+  color: rgb(236, 221, 14);
   font-size: 20px;
   font-family: "Lato";
   font-weight: 700;
@@ -290,9 +290,7 @@ a {
   width: 50%;
   margin: 50px 0 0 50px;
 }
-.contact p {
-  float: left;
-}
+
 .social-links {
   margin: 50px 0 0 50px;
   width: 50%;
@@ -303,13 +301,16 @@ a {
   margin-bottom: 20px;
 }
 
+
 .social-links a {
 
   text-decoration: none;
+  font-size: 20px;
+  
 }
 .social-links li {
   text-decoration: none;
-  margin-left: 10px;
+  padding-top: 15px;
 }
 
 p {
@@ -459,11 +460,33 @@ span {
   .kga-footer {
     width: 100%;
     height: 280px;
+    margin: 0;
   }
 
-  .contact-section p,
+.kga-footer p {
+
+  float: left;
+}
+
+  .contact-section {
+
+    width: 50%;
+    margin: 20px 0 0 0;
+  }
+.contact p {
+  margin: 0;
+}
+  .social-links{
+
+    width: 50%;
+    margin: 20px 0 0 0;
+    overflow: hidden;
+  }
+
+   .contact-section p,
   .social-links p {
-    font-size: 7px;
+    font-size: 10px;
+    
   }
 
   .kga-footer h3 {
@@ -473,7 +496,34 @@ span {
   .social li {
     margin: 0 0 0 5px;
   }
+  .social-links li {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+  }
+/* -----
+SVG Icons - svgicons.sparkk.fr
+----- */
 
+.svg-icon {
+  width: 0.8em;
+  height: 0.8em;
+  float: left;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #4691f6;
+}
+
+.svg-icon circle {
+  stroke: #4691f6;
+  stroke-width: 1;
+}
+.social-links a {
+  font-size: 8px;
+}
   .enquiries {
     font-size: 16px;
   }
@@ -495,7 +545,7 @@ span {
 /* Portrait and Landscape */
 
 /* Landscape */
-@media only screen and (min-width: 700px) and (max-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
 
   .logo {
     width: 150px;
@@ -543,7 +593,7 @@ span {
 
   .gmnoprint {
 
-    margin-left: 50px;
+    margin-left: 5px;
   }
     .kga-footer{
       height: 300px;
@@ -558,15 +608,19 @@ span {
   .social li {
     margin-left: -10px;
   }
-    .fa {
-
-    font-size: 10px;
+   .social-links{
+     overflow: hidden;
    }
   .design-attribute {
     margin: 50px 5px 0 120px;
     width: 100%;
   }
   
+  .contact-section p,
+  .social-links p {
+    font-size: 12px;
+    
+  }
   .design-attribute p {
 
     font-size: 15px;
