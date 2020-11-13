@@ -251,7 +251,7 @@ a {
 .layers-section,
 .broilers-section {
   color: orange;
-  margin-top: 50px;
+  margin-top:10px;
   overflow: hidden;
 }
 .enquiries {
@@ -303,6 +303,10 @@ a {
   margin-bottom: 20px;
 }
 
+.social-links a {
+
+  text-decoration: none;
+}
 .social-links li {
   text-decoration: none;
   margin-left: 10px;
@@ -315,48 +319,29 @@ p {
 .social-link ul {
   list-style: none;
 }
-.fa {
-  padding: 20px;
-  font-size: 80px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
+
+
+/* -----
+SVG Icons - svgicons.sparkk.fr
+----- */
+
+.svg-icon {
+  width: 1.5em;
+  height: 1.5em;
 }
 
-/* Add a hover effect if you want */
-.fa:hover, .fa-facebook:hover {
-  background-color: white;
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #4691f6;
 }
 
-.fa-facebook {
-  background: #3b5998;
-  color: white;
-  text-decoration: none;
-}
-
-i {
-
-  font: 10px;
-}
-.fa-twitter {
-  background: #55acee;
-  color: white;
-  text-decoration: none;
-}
-.fa-facebook a {
-  text-decoration: none;
-}
-.fa-twitter a {
-
-  text-decoration: none;
+.svg-icon circle {
+  stroke: #4691f6;
+  stroke-width: 1;
 }
 
 
-.fa-facebook  
-{
-
-  font-size: 10px;
-}
 span {
   width: 10%;
 }
@@ -483,24 +468,6 @@ span {
 
   .kga-footer h3 {
     font-size: 10px;
-  }
-
-  .fa-facebook,
-  .fa-twitter {
-    font-size: 5px;
-  }
-
-  .fa-facebook {
-    
-    width: 10px;
-    height: 15px;
-    padding: 5px 15px 15px 5px;
-  }
-
-  .fa-twitter {
-    width: 10px;
-    height: 15px;
-    padding: 3px 16px 15px 5px;
   }
 
   .social li {
