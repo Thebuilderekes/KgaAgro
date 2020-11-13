@@ -271,7 +271,7 @@ a {
 }
 
 /*------------------------------------------------*/
-/*   FOOTER SECTION CODES */
+/*   FOOTER SECTION CODES 
 /*------------------------------------------------*/
 .kga-footer {
   display: flex;
@@ -393,8 +393,9 @@ span {
   }
   .hero-text1,
   .hero-text2 {
-    font-size: 20px;
+    font-size: 35px;
     width: 100%;
+    text-align: center;
   }
 
   .gallery-img {
@@ -451,7 +452,7 @@ span {
 
   .kga-services {
     width: 100%;
-    height: 1000px;
+    height: 960px;
     font-family: "Lato";
     overflow: hidden;
   }
@@ -583,9 +584,14 @@ SVG Icons - svgicons.sparkk.fr
   }
   .hero-text1,
   .hero-text2 {
-    font-size: 25px;
+    font-size: 35px;
     width: 100%;
+    text-align: center;
   }
+
+ 
+
+  
   .kga-services h2 {
 
     font-size: 17px;
@@ -642,6 +648,8 @@ SVG Icons - svgicons.sparkk.fr
   .svg-icon circle {
     stroke: #4691f6;
     stroke-width: 1;
+
+  }
   .design-attribute {
     margin: 50px 5px 0 120px;
     width: 100%;
@@ -665,3 +673,29 @@ SVG Icons - svgicons.sparkk.fr
   }
 
 }
+
+@media only screen 
+  and (min-width: 1024px) 
+  and (max-width: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 2) 
+  and (orientation: landscape) {
+
+  .navbar {
+  float: right;   
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  }
