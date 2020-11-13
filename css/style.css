@@ -76,6 +76,12 @@ h2 {
   text-align: center;
 }
 
+
+.container {
+
+  overflow: hidden;
+}
+
 /*----------------------------------------*/
 /*  NAVBAR CODES                          */
 /*----------------------------------------*/
@@ -271,7 +277,7 @@ a {
   display: flex;
   background-color: rgb(15, 15, 14);
   width: 100%;
-  height: 380px;
+  height: 320px;
 }
 
 .kga-footer h3 {
@@ -368,7 +374,12 @@ span {
 /*------------------------------------------------*/
 
 /* iphone 6/7/8 and galaxy s5 */
-@media only screen and (min-width: 300px) and (max-width: 700px) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (min-width: 300px) and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+  
+  .container {
+    overflow: hidden;
+  }
+  
   .nav-link {
     font-size: 12px;
   }
@@ -459,7 +470,7 @@ span {
   }
   .kga-footer {
     width: 100%;
-    height: 280px;
+    height: 255px;
     margin: 0;
   }
 
@@ -547,6 +558,10 @@ SVG Icons - svgicons.sparkk.fr
 /* Landscape */
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
 
+  .container {
+    overflow: hidden;
+  }
+
   .logo {
     width: 150px;
     height: 100px;
@@ -596,7 +611,7 @@ SVG Icons - svgicons.sparkk.fr
     margin-left: 5px;
   }
     .kga-footer{
-      height: 300px;
+      height: 250px;
     }
   .kga-footer h3 {
     font-size: 18px;
@@ -611,6 +626,22 @@ SVG Icons - svgicons.sparkk.fr
    .social-links{
      overflow: hidden;
    }
+
+   .svg-icon {
+    width: 0.8em;
+    height: 0.8em;
+    float: left;
+  }
+  
+  .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+    fill: #4691f6;
+  }
+  
+  .svg-icon circle {
+    stroke: #4691f6;
+    stroke-width: 1;
   .design-attribute {
     margin: 50px 5px 0 120px;
     width: 100%;
