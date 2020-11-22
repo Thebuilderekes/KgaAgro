@@ -60,7 +60,6 @@ body {
   color: rgb(238, 238, 41);
 }
 
-
 .jumbotron {
   background-color: rgba(14, 14, 27, 0.527);
   width: 80%;
@@ -76,9 +75,7 @@ h2 {
   text-align: center;
 }
 
-
 .container {
-
   overflow: hidden;
 }
 
@@ -114,12 +111,10 @@ a {
   font-size: 20px;
   font-family: "Lato";
   font-weight: 700;
-  
 }
 
 .offers a {
   text-decoration: none;
-
 }
 .navbar-dark .navbar-nav .nav-link {
   color: white;
@@ -130,8 +125,8 @@ a {
 /*----------------------------------------*/
 
 .logo {
-  width: 200px;
-  height: 150px;
+  width: 300px;
+  height: 250px;
   opacity: 0.8;
 }
 
@@ -184,7 +179,6 @@ a {
 .navbar-gallery {
   float: right;
 }
-
 
 .gallery {
   font-family: "Lato";
@@ -251,18 +245,17 @@ a {
   color: rgb(251, 251, 251);
   font-size: 20px;
   text-align: center;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
 }
 .eggs-section,
 .layers-section,
 .broilers-section {
   color: orange;
-  margin-top:10px;
+  margin-top: 10px;
   overflow: hidden;
 }
 .enquiries {
-
- font-size: 22px;
+  font-size: 22px;
 }
 .empty-space {
   width: 100%;
@@ -282,15 +275,14 @@ a {
 
 .kga-footer h3 {
   color: orange;
-  
-  font-family: 'Montserrat';
+
+  font-family: "Montserrat";
 }
 
 .kga-footer p {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 18px;
 }
-
 
 .contact-section {
   width: 50%;
@@ -307,18 +299,21 @@ a {
   margin-bottom: 20px;
 }
 
-
 .social-links a {
-
   text-decoration: none;
-  font-size: 20px;
-  
+  font-size: 20px; 
 }
 .social-links li {
   text-decoration: none;
   padding-top: 15px;
 }
+.social-links li a {
+  color: white;
+}
 
+.social-links li a:hover {
+  color: red;
+}
 p {
   color: white;
 }
@@ -326,7 +321,6 @@ p {
 .social-link ul {
   list-style: none;
 }
-
 
 /* -----
 SVG Icons - svgicons.sparkk.fr
@@ -348,7 +342,6 @@ SVG Icons - svgicons.sparkk.fr
   stroke-width: 1;
 }
 
-
 span {
   width: 10%;
 }
@@ -362,7 +355,6 @@ span {
   width: 100%;
 }
 .design-attribute a {
-
   text-decoration: none;
 }
 .attribute {
@@ -375,11 +367,10 @@ span {
 
 /* iphone 6/7/8 and galaxy s5 */
 @media only screen and (min-width: 300px) and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
-  
   .container {
     overflow: hidden;
   }
-  
+
   .nav-link {
     font-size: 12px;
   }
@@ -467,42 +458,46 @@ span {
 
   .map {
     margin-right: 800px;
-
   }
   .kga-footer {
     width: 100%;
     height: 255px;
     margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
   }
 
-.kga-footer p {
-
-  float: left;
-}
+  .kga-footer p {
+    float: left;
+  }
 
   .contact-section {
-
     width: 50%;
     margin: 20px 0 0 0;
   }
-.contact p {
-  margin: 0;
-}
-  .social-links{
-
-    width: 50%;
+  .contact p {
+    margin: 0;
+    padding: 0.2em;
+  }
+  .social-links {
+    width: 500%;
     margin: 20px 0 0 0;
     overflow: hidden;
   }
 
-   .contact-section p,
+  .contact-section p,
   .social-links p {
     font-size: 10px;
-    
   }
 
   .kga-footer h3 {
     font-size: 10px;
+  }
+  .address,
+  .phone {
+    font-size: 8px;
+    text-align: left;
   }
 
   .social li {
@@ -510,32 +505,34 @@ span {
   }
   .social-links li {
     text-decoration: none;
+
     margin: 0;
     padding: 0;
   }
-/* -----
+
+  /* -----
 SVG Icons - svgicons.sparkk.fr
 ----- */
 
-.svg-icon {
-  width: 0.8em;
-  height: 0.8em;
-  float: left;
-}
+  .svg-icon {
+    width: 0.9em;
+    height: 0.9em;
+    float: left;
+  }
 
-.svg-icon path,
-.svg-icon polygon,
-.svg-icon rect {
-  fill: #4691f6;
-}
+  .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+    fill: #4691f6;
+  }
 
-.svg-icon circle {
-  stroke: #4691f6;
-  stroke-width: 1;
-}
-.social-links a {
-  font-size: 8px;
-}
+  .svg-icon circle {
+    stroke: #4691f6;
+    stroke-width: 1;
+  }
+  .social-links a {
+    font-size: 8px;
+  }
   .enquiries {
     font-size: 16px;
   }
@@ -543,22 +540,18 @@ SVG Icons - svgicons.sparkk.fr
   .design-attribute {
     margin: 50px 0 0 10px;
     width: 100%;
-    
   }
 
   .design-attribute p {
     font-size: 7px;
     float: left;
   }
-
-   
 }
 
 /* Portrait and Landscape */
 
 /* Landscape */
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
-
   .container {
     overflow: hidden;
   }
@@ -573,7 +566,7 @@ SVG Icons - svgicons.sparkk.fr
 
   .nav-link {
     margin-left: 100px;
-    
+
     border-radius: 10px;
   }
 
@@ -589,113 +582,85 @@ SVG Icons - svgicons.sparkk.fr
     text-align: center;
   }
 
- 
-
-  
   .kga-services h2 {
-
     font-size: 17px;
-   }
+  }
   .jumbo-box {
     margin-top: 200px;
   }
-  
-  .jumbotron{
+
+  .jumbotron {
     margin-top: -30px;
     width: 100%;
-    height: 100%
+    height: 100%;
   }
 
-  .jumbotron p{
-
+  .jumbotron p {
     font-size: 15px;
   }
-  
 
   .gmnoprint {
-
     margin-left: 5px;
   }
-    .kga-footer{
-      height: 250px;
-    }
+  .kga-footer {
+    height: 250px;
+  }
   .kga-footer h3 {
     font-size: 18px;
   }
-   .kga-footer p {
-     font-size: 15px;
-   }
+  .kga-footer p {
+    font-size: 15px;
+  }
 
   .social li {
     margin-left: -10px;
   }
-   .social-links{
-     overflow: hidden;
-   }
+  .social-links {
+    overflow: hidden;
+  }
 
-   .svg-icon {
+  .svg-icon {
     width: 0.8em;
     height: 0.8em;
     float: left;
   }
-  
+
   .svg-icon path,
   .svg-icon polygon,
   .svg-icon rect {
     fill: #4691f6;
   }
-  
+
   .svg-icon circle {
     stroke: #4691f6;
     stroke-width: 1;
-
   }
   .design-attribute {
     margin: 50px 5px 0 120px;
     width: 100%;
+    
   }
-  
+
   .contact-section p,
   .social-links p {
     font-size: 12px;
-    
   }
   .design-attribute p {
-
     font-size: 15px;
   }
-  .designer{
-   font-size: 16px;
+  .designer {
+    font-size: 16px;
   }
+
+
   .gallery-img {
     width: 200px;
     height: 100px;
   }
-
 }
 
-@media only screen 
-  and (min-width: 1024px) 
-  and (max-width: 1366px) 
-  and (-webkit-min-device-pixel-ratio: 2) 
-  and (orientation: landscape) {
-
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
   .navbar {
-  float: right;   
+    float: right;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  }
+}
