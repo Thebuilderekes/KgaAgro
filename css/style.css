@@ -44,7 +44,7 @@ body {
 }
 
 .hero-text2 {
-  color: orange;
+  color: greenyellow;
   overflow: hidden;
   font-weight: bold;
 }
@@ -85,6 +85,7 @@ h2 {
 .navbar {
   float: right;
   margin: 20px 5px 10px 0;
+ 
 }
 .navbar li {
   padding-left: 15px;
@@ -92,6 +93,7 @@ h2 {
   display: inline-block;
   text-transform: uppercase;
   font-size: 10px;
+  
 }
 .navbar li a:link,
 .navbar li a:visited {
@@ -103,14 +105,14 @@ h2 {
 
 .navbar li a:hover,
 .navbar li a:active {
-  border-bottom: 2px solid orange;
+  border-bottom: 2px solid greenyellow;
 }
 
 a {
   color: rgb(236, 221, 14);
   font-size: 20px;
   font-family: "Lato";
-  font-weight: 700;
+  font-weight: 300;
 }
 
 .offers a {
@@ -148,7 +150,7 @@ a {
   width: 100px;
   content: "";
   margin: 0 auto;
-  background-color: orange;
+  background-color: greenyellow;
   margin-top: 30px;
   margin-bottom: 5px;
 }
@@ -163,6 +165,12 @@ a {
 .jumbo-box {
   display: flex;
 }
+ 
+.navbar li a {
+
+    font-weight: 300;
+}
+
 
 /*------------------------------------------------*/
 /* GALLERY SECTION CODES */
@@ -236,7 +244,7 @@ a {
   width: 100px;
   content: "";
   margin: 0 auto;
-  background-color: orange;
+  background-color: greenyellow;
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -250,7 +258,7 @@ a {
 .eggs-section,
 .layers-section,
 .broilers-section {
-  color: orange;
+  color: greenyellow;
   margin-top: 10px;
   overflow: hidden;
 }
@@ -274,7 +282,7 @@ a {
 }
 
 .kga-footer h3 {
-  color: orange;
+  color: greenyellow;
 
   font-family: "Montserrat";
 }
@@ -334,7 +342,7 @@ SVG Icons - svgicons.sparkk.fr
 .svg-icon path,
 .svg-icon polygon,
 .svg-icon rect {
-  fill: #4691f6;
+  fill: #f6f6f6;
 }
 
 .svg-icon circle {
@@ -507,7 +515,7 @@ span {
     text-decoration: none;
 
     margin: 0;
-    padding: 0;
+    padding: 0; 
   }
 
   /* -----
