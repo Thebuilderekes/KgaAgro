@@ -114,12 +114,16 @@ a {
   font-family: "Lato";
   font-weight: 300;
 }
+.navbar li a {
 
+  font-weight: 300;
+}
 .offers a {
   text-decoration: none;
 }
 .navbar-dark .navbar-nav .nav-link {
   color: white;
+  font-weight: 300;
 }
 
 /*----------------------------------------*/
@@ -139,7 +143,7 @@ a {
 .about {
   font-family: "Lato";
   text-align: center;
-  color: rgb(224, 140, 4);
+  color:white;
   transition: 3s;
   padding: 20px 0 0 0;
 }
@@ -226,7 +230,7 @@ a {
 .kga-services {
   background-color: rgb(80, 77, 77);
   width: 100%;
-  height: 700px;
+  height: 850px;
   font-family: "Lato";
   overflow: hidden;
 }
@@ -249,6 +253,17 @@ a {
   margin-bottom: 30px;
 }
 
+.kga-services h2 {
+
+  color:  greenyellow; ;
+}
+
+.services-image {
+  width: 250px;
+  height: 200px;
+  padding-right: 30px;
+}
+
 .kga-services p {
   color: rgb(251, 251, 251);
   font-size: 20px;
@@ -258,7 +273,7 @@ a {
 .eggs-section,
 .layers-section,
 .broilers-section {
-  color: greenyellow;
+ 
   margin-top: 10px;
   overflow: hidden;
 }
@@ -320,7 +335,7 @@ a {
 }
 
 .social-links li a:hover {
-  color: red;
+  color: yellow;
 }
 p {
   color: white;
@@ -383,18 +398,24 @@ span {
     font-size: 12px;
   }
   .logo {
-    width: 100px;
-    height: 70px;
+    width: 200px;
+    height: 150px;
   }
 
   .hero-section {
     margin-top: 100px;
+    overflow: hidden;
+  }
+
+  .hero-text {
+    overflow: hidden;
   }
   .hero-text1,
   .hero-text2 {
     font-size: 35px;
     width: 100%;
     text-align: center;
+    overflow: hidden;
   }
 
   .gallery-img {
@@ -449,9 +470,15 @@ span {
     text-align: center;
   }
 
+  .services-image{
+   width: 250px;
+   height: 200px;
+   padding: 0 0 0 30px;
+
+  }
   .kga-services {
     width: 100%;
-    height: 960px;
+    height: 1500px;
     font-family: "Lato";
     overflow: hidden;
   }
@@ -564,10 +591,11 @@ SVG Icons - svgicons.sparkk.fr
     overflow: hidden;
   }
 
-  .logo {
-    width: 150px;
-    height: 100px;
-  }
+  
+    .logo {
+      width: 250px;
+      height: 200px;
+    }
   .nav-link {
     font-size: 15px;
   }
