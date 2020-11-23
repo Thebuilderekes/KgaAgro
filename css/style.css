@@ -385,7 +385,7 @@ span {
   font-style: italic;
 }
 /*------------------------------------------------ */
-/* MEDIA QUERIES CODES                             */
+/* MEDIA QUERIES CODES                    */
 /*------------------------------------------------*/
 
 /* iphone 6/7/8 and galaxy s5 */
@@ -473,7 +473,7 @@ span {
   .services-image{
    width: 250px;
    height: 200px;
-   padding: 0 0 0 30px;
+   padding: 0 ;
 
   }
   .kga-services {
