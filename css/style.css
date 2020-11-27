@@ -36,18 +36,71 @@ body {
 .hero-text {
   margin: 160px 0 0 80px;
   width: 80%;
+  backface-visibility: hidden;
 }
 .hero-text1 {
   color: rgb(255, 247, 247);
   overflow: hidden;
   font-weight: bold;
+  animation-name: moveInLeft;
+  animation-duration: 3s;
+  animation-timing-function: ease-out;
 }
 
 .hero-text2 {
   color: greenyellow;
   overflow: hidden;
   font-weight: bold;
+  animation-name: moveInRight;
+  animation-duration: 3s;
+  animation-timing-function: ease-out;
 }
+
+
+@keyframes moveInLeft {
+
+0% {
+     
+       opacity: 0;
+       transform: translateX(-100px);
+}
+/*
+80% {
+       transform: translateX(10px);
+ }
+*/
+100% {
+
+
+
+  opacity: 1;
+   transform: translate(0);
+}
+
+
+
+}
+
+@keyframes moveInRight {
+0% {
+     
+       opacity: 0;
+       transform: translateX(100px);
+}
+/*
+80% {
+       transform: translateX(10px);
+ }
+*/
+100% {
+
+  opacity: 1;
+   transform: translate(0);
+}
+
+  
+}
+
 .space1 {
   width: 10%;
 }
