@@ -362,11 +362,11 @@ a {
 
 .contact-section {
   width: 50%;
-  margin: 50px 0 0 50px;
+  margin: 50px 0 0 0;
 }
 
 .social-links {
-  margin: 0 0 0 50px;
+
   width: 50%;
   overflow: hidden;
 }
@@ -615,6 +615,17 @@ span {
 .rights-reserved {
   font-size: 8px;
   width: 100%;
+}
+
+h2 {
+  margin-top: 5px;
+}
+.designer {
+  font-size: 7px;
+}
+.footer-attribute {
+
+  flex-wrap: wrap;
 }
   /* -----
 SVG Icons - svgicons.sparkk.fr
