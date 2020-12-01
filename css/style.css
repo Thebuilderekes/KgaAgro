@@ -343,9 +343,10 @@ a {
 /*------------------------------------------------*/
 .kga-footer {
   display: flex;
+  flex-wrap: wrap;
   background-color: rgb(15, 15, 14);
   width: 100%;
-  height: 320px;
+  height: 500px;
 }
 
 .kga-footer h3 {
@@ -356,7 +357,7 @@ a {
 
 .kga-footer p {
   font-family: "Montserrat";
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .contact-section {
@@ -365,7 +366,7 @@ a {
 }
 
 .social-links {
-  margin: 50px 0 0 50px;
+  margin: 0 0 0 50px;
   width: 50%;
   overflow: hidden;
 }
@@ -397,6 +398,36 @@ p {
   list-style: none;
 }
 
+.footer-attribute {
+
+  display: flex;
+  
+}
+.rights-reserved {
+  width: 60%;
+  color: #fff;
+  margin-top: 20px;
+}
+.design-attribute p {
+  color: rgb(248, 248, 248);
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.design-attribute {
+  margin: 30px 0 0 300px;
+  width: 40%;
+}
+.design-attribute a {
+  text-decoration: none;
+  font-size: 15px;
+}
+.attribute {
+  color: white;
+  font-style: italic;
+}
+
+
 /* -----
 SVG Icons - svgicons.sparkk.fr
 ----- */
@@ -420,27 +451,6 @@ SVG Icons - svgicons.sparkk.fr
 span {
   width: 10%;
 }
-
-.design-attribute p {
-  color: rgb(248, 248, 248);
-  font-size: 14px;
-  cursor: pointer;
-}
-
-.design-attribute {
-  margin: 100px 0 0 300px;
-  width: 100%;
-}
-.design-attribute a {
-  text-decoration: none;
-  font-size: 15px;
-}
-.attribute {
-  color: white;
-  font-style: italic;
-}
-
-
 /*------------------------------------------------ */
 /* MEDIA QUERIES CODES                    */
 /*------------------------------------------------*/
@@ -601,7 +611,10 @@ span {
     margin: 0;
     padding: 0;
   }
-
+.rights-reserved {
+  font-size: 8px;
+  width: 100%;
+}
   /* -----
 SVG Icons - svgicons.sparkk.fr
 ----- */
@@ -737,20 +750,21 @@ SVG Icons - svgicons.sparkk.fr
     font-size: 12px;
   }
   .design-attribute p {
-    font-size: 15px;
+    font-size: 12px;
   }
   .designer {
-    font-size: 14px;
+    font-size: 10px;
   }
 
   .gallery-img {
     width: 200px;
     height: 100px;
   }
-}
 
-@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-  .navbar {
-    float: right;
+  .rights-reserved {
+    font-size: 10px;
+    width: 100%;
+    margin: -50px 0 0 0 ;
   }
 }
+
