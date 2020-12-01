@@ -572,6 +572,7 @@ span {
 
   .kga-footer p {
     float: left;
+    font-size: 30px;
   }
 
   .contact-section {
@@ -714,7 +715,7 @@ SVG Icons - svgicons.sparkk.fr
     font-size: 18px;
   }
   .kga-footer p {
-    font-size: 15px;
+    font-size: 25px;
   }
 
   .social li {
