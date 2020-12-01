@@ -398,34 +398,13 @@ p {
   list-style: none;
 }
 
-.footer-attribute {
-
-  display: flex;
-  
-}
-.rights-reserved {
-  width: 60%;
-  color: #fff;
-  margin-top: 20px;
-}
-.design-attribute p {
-  color: rgb(248, 248, 248);
-  font-size: 14px;
-  cursor: pointer;
-}
-
 .design-attribute {
-  margin: 30px 0 0 300px;
-  width: 40%;
+  margin: 30px 0 0 0;
+  color: rgb(248, 248, 248);
+ font-size: 18px;
+ 
 }
-.design-attribute a {
-  text-decoration: none;
-  font-size: 15px;
-}
-.attribute {
-  color: white;
-  font-style: italic;
-}
+
 
 
 /* -----
@@ -563,7 +542,7 @@ span {
   }
   .kga-footer {
     width: 100%;
-    height: 255px;
+    height: 250px;
     margin: 0;
     display: flex;
     flex-wrap: wrap;
@@ -608,25 +587,26 @@ span {
   }
   .social-links li {
     text-decoration: none;
-
+   
     margin: 0;
     padding: 0;
   }
-.rights-reserved {
-  font-size: 8px;
+ .footer-attribute{
+    
   width: 100%;
-}
+ }
+
+ .design-attribute li{
+  font-size: 5px;
+  width: 100%;
+ }
+ 
 
 h2 {
   margin-top: 5px;
-}
-.designer {
-  font-size: 7px;
-}
-.footer-attribute {
 
-  flex-wrap: wrap;
 }
+
   /* -----
 SVG Icons - svgicons.sparkk.fr
 ----- */
@@ -648,22 +628,13 @@ SVG Icons - svgicons.sparkk.fr
     stroke-width: 1;
   }
   .social-links a {
-    font-size: 8px;
+    font-size: 10px;
   }
   .enquiries {
     font-size: 16px;
   }
 
-  .design-attribute {
-    margin: 50px 0 0 10px;
-    width: 100%;
-    font-size: 7px;
-  }
-
-  .design-attribute p {
-    font-size: 7px;
-    float: left;
-  }
+  
 }
 
 /* Portrait and Landscape */
@@ -721,7 +692,7 @@ SVG Icons - svgicons.sparkk.fr
     margin-left: 5px;
   }
   .kga-footer {
-    height: 250px;
+    height: 300px;
   }
   .kga-footer h3 {
     font-size: 18px;
@@ -762,9 +733,7 @@ SVG Icons - svgicons.sparkk.fr
   .social-links p {
     font-size: 12px;
   }
-  .design-attribute p {
-    font-size: 12px;
-  }
+ 
   .designer {
     font-size: 10px;
   }
@@ -774,10 +743,6 @@ SVG Icons - svgicons.sparkk.fr
     height: 100px;
   }
 
-  .rights-reserved {
-    font-size: 10px;
-    width: 100%;
-    margin: -50px 0 0 0 ;
-  }
+ 
 }
 
