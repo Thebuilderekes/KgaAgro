@@ -34,7 +34,7 @@ body {
   width: 100%;
 }
 .hero-text {
-  margin: 160px 0 0 80px;
+  margin: 8rem 0 0 4rem;
   width: 80%;
   backface-visibility: hidden;
 }
@@ -104,17 +104,17 @@ body {
   background-color: rgba(14, 14, 27, 0.527);
   width: 80%;
   margin: auto;
-  margin-top: 30px;
-  border-radius: 10px;
+  margin-top: 1.5rem;
+  border-radius: 0.5rem;
   transition: 7s;
 }
 h2 {
   overflow: hidden;
-  font-size: 25px;
+  font-size: 1.25rem;
   letter-spacing: 1px;
   text-align: center;
-  margin-top: -30px;
-  margin-bottom: 20px;
+  margin-top: -1.5rem;
+  margin-bottom: 1rem;
 }
 
 .container {
@@ -133,7 +133,13 @@ h2 {
   font-family: "Lato";
   display: inline-block;
   text-transform: uppercase;
-  font-size: 10px;
+  font-size: 14px;
+}
+
+.nav-link {
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: bold;
 }
 .navbar li a:link,
 .navbar li a:visited {
@@ -201,8 +207,8 @@ a {
 .jumbotron p {
   font-family: "Lato";
   color: white;
-  font-size: 20px;
-  padding: 0 10px;
+  font-size: 1rem;
+  padding: 0 0.5rem;
 }
 
 .jumbo-box {
@@ -366,7 +372,6 @@ a {
 }
 
 .social-links {
-
   width: 50%;
   overflow: hidden;
 }
@@ -401,15 +406,13 @@ p {
 .design-attribute {
   margin: 30px 0 0 0;
   color: rgb(248, 248, 248);
- font-size: 18px;
- 
+  font-size: 18px;
+  list-style: none;
 }
-
-
 
 /* -----
 SVG Icons - svgicons.sparkk.fr
------ */
+         ----- */
 
 .svg-icon {
   width: 1.5em;
@@ -441,8 +444,13 @@ span {
   }
 
   .nav-link {
-    font-size: 12px;
+    font-size: 14px;
   }
+
+ .navbar li {
+
+  font-size: 14px;
+ }
   .logo {
     width: 200px;
     height: 150px;
@@ -477,7 +485,6 @@ span {
   .designer {
     /* footer link for designer */
     font-size: 10px;
-    
   }
 
   .jumbo-box {
@@ -587,25 +594,22 @@ span {
   }
   .social-links li {
     text-decoration: none;
-   
+
     margin: 0;
     padding: 0;
   }
- .footer-attribute{
-    
-  width: 100%;
- }
+  .footer-attribute {
+    width: 100%;
+  }
 
- .design-attribute li{
-  font-size: 5px;
-  width: 100%;
- }
- 
+  .design-attribute li {
+    font-size: 5px;
+    width: 100%;
+  }
 
-h2 {
-  margin-top: 5px;
-
-}
+  h2 {
+    margin-top: 5px;
+  }
 
   /* -----
 SVG Icons - svgicons.sparkk.fr
@@ -633,8 +637,6 @@ SVG Icons - svgicons.sparkk.fr
   .enquiries {
     font-size: 16px;
   }
-
-  
 }
 
 /* Portrait and Landscape */
@@ -650,9 +652,13 @@ SVG Icons - svgicons.sparkk.fr
     height: 200px;
   }
   .nav-link {
-    font-size: 15px;
+    font-size: 14px;
   }
 
+  .navbar li {
+
+    font-size: 14px;
+   }
   .nav-link {
     margin-left: 100px;
 
@@ -733,7 +739,7 @@ SVG Icons - svgicons.sparkk.fr
   .social-links p {
     font-size: 12px;
   }
- 
+
   .designer {
     font-size: 10px;
   }
@@ -742,7 +748,210 @@ SVG Icons - svgicons.sparkk.fr
     width: 200px;
     height: 100px;
   }
-
- 
 }
 
+
+/* 2436x1125px at 458ppi */
+
+@media only screen and (device-width : 375px) and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) {
+
+  .container {
+    overflow: hidden;
+  }
+
+  .nav-link {
+    font-size: 14px;
+  }
+
+  .navbar li {
+
+    font-size: 20px;
+  }
+  .logo {
+    width: 200px;
+    height: 150px;
+  }
+
+  .hero-section {
+    margin-top: 100px;
+    overflow: hidden;
+  }
+
+  .hero-text {
+    overflow: hidden;
+  }
+  .hero-text1,
+  .hero-text2 {
+    font-size: 35px;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .gallery-img {
+    width: 300px;
+    height: 200px;
+    margin-left: 35px;
+  }
+
+  .hero-text {
+    margin: 70px 0 0 -10px;
+    width: 100%;
+  }
+  .designer {
+    /* footer link for designer */
+    font-size: 10px;
+  }
+
+  .jumbo-box {
+    margin-top: 30px;
+  }
+
+  .pre-jumbo {
+    width: 10%;
+  }
+
+  .jumbotron {
+    width: 80%;
+  }
+
+  .post-jumbo {
+    width: 10%;
+  }
+
+  .jumbotron p {
+    font-size: 16px;
+  }
+
+  .about {
+    font-size: 18px;
+  }
+
+  .kga-services h1 {
+    font-size: 18px;
+  }
+
+  .kga-services h2 {
+    font-size: 15px;
+  }
+
+  .kga-services h2,
+  p {
+    text-align: center;
+  }
+
+  .services-image {
+    width: 250px;
+    height: 200px;
+    padding: 0;
+  }
+  .kga-services {
+    width: 100%;
+    height: 1500px;
+    font-family: "Lato";
+    overflow: hidden;
+  }
+
+  .eggs-section {
+    margin-top: -30px;
+  }
+  .empty-space {
+    width: 100%;
+    height: 100px;
+  }
+
+  .map {
+    margin-right: 800px;
+  }
+  .kga-footer {
+    width: 100%;
+    height: 250px;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+
+  .kga-footer p {
+    float: left;
+    font-size: 30px;
+  }
+
+  .contact-section {
+    width: 50%;
+    margin: 20px 0 0 0;
+  }
+  .contact p {
+    margin: 0;
+    padding: 0.2em;
+  }
+  .social-links {
+    width: 500%;
+    margin: 20px 0 0 0;
+    overflow: hidden;
+  }
+
+  .contact-section p,
+  .social-links p {
+    font-size: 10px;
+  }
+
+  .kga-footer h3 {
+    font-size: 10px;
+  }
+  .address,
+  .phone {
+    font-size: 8px;
+    text-align: left;
+  }
+
+  .social li {
+    margin: 0 0 0 5px;
+  }
+  .social-links li {
+    text-decoration: none;
+
+    margin: 0;
+    padding: 0;
+  }
+  .footer-attribute {
+    width: 100%;
+  }
+
+  .design-attribute li {
+    font-size: 5px;
+    width: 100%;
+  }
+
+  h2 {
+    margin-top: 5px;
+  }
+
+  /* -----
+    SVG Icons - svgicons.sparkk.fr
+    ----- */
+
+  .svg-icon {
+    width: 0.9em;
+    height: 0.9em;
+    float: left;
+  }
+
+  .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+    fill: #4691f6;
+  }
+
+  .svg-icon circle {
+    stroke: #4691f6;
+    stroke-width: 1;
+  }
+  .social-links a {
+    font-size: 10px;
+  }
+  .enquiries {
+    font-size: 16px;
+  }
+}
