@@ -133,11 +133,11 @@ h2 {
   font-family: "Lato";
   display: inline-block;
   text-transform: uppercase;
-  font-size: 14px;
+  font-weight: bold;
 }
 
 .nav-link {
-  font-size: 14px;
+  font-size: 18px;
   letter-spacing: 1px;
   font-weight: bold;
 }
