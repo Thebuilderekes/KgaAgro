@@ -1,7 +1,7 @@
 /*----------------------------------------*/
 /*  REUSEABLE CODES                          */
 /*----------------------------------------*/
-
+@import url(/css/font.css);
 * {
   margin: 0;
   padding: 0;
@@ -41,6 +41,7 @@ body {
 .hero-text1 {
   color: rgb(255, 247, 247);
   overflow: hidden;
+
   font-weight: bold;
   animation-name: moveInLeft;
   animation-duration: 3s;
@@ -51,6 +52,8 @@ body {
   color: greenyellow;
   overflow: hidden;
   font-weight: bold;
+  font-size: 30px;
+  margin-top: 10px;
   animation-name: moveInRight;
   animation-duration: 3s;
   animation-timing-function: ease-out;
@@ -108,7 +111,7 @@ body {
   border-radius: 0.5rem;
   transition: 7s;
 }
-h2 {
+.kga-services h2 {
   overflow: hidden;
   font-size: 1.25rem;
   letter-spacing: 1px;
@@ -186,11 +189,12 @@ a {
 /*------------------------------------------------*/
 
 .about {
-  font-family: "Lato";
+  font-family: "Poppins";
   text-align: center;
   color: white;
   transition: 3s;
   padding: 20px 0 0 0;
+  font-size: 30px;
 }
 
 .about:after {
@@ -205,10 +209,13 @@ a {
 }
 
 .jumbotron p {
-  font-family: "Lato";
+  font-family: "Poppins";
   color: white;
   font-size: 1rem;
   padding: 0 0.5rem;
+}
+.jumbotron {
+  margin-bottom: 20px;
 }
 
 .jumbo-box {
@@ -344,95 +351,96 @@ a {
   overflow: hidden;
 }
 
-/*------------------------------------------------*/
-/*   FOOTER SECTION CODES 
-/*------------------------------------------------*/
-.kga-footer {
-  display: flex;
-  flex-wrap: wrap;
-  background-color: rgb(15, 15, 14);
+/*-------------------------------------------- */
+/*               footer  area                  */
+/*---------------------------------------------*/
+
+.main-footer {
   width: 100%;
-  height: 500px;
+  height: 27rem;
+  background-color: rgb(44, 43, 43);
+  overflow-x: hidden;
+  overflow-y: hidden;
+ 
 }
 
-.kga-footer h3 {
-  color: greenyellow;
 
-  font-family: "Montserrat";
-}
-
-.kga-footer p {
-  font-family: "Montserrat";
-  font-size: 20px;
-}
-
-.contact-section {
-  width: 50%;
+.social-links ul {
   margin: 50px 0 0 0;
+  list-style: none;
+}
+.social-links ul li {
+  color: rgb(255, 255, 255);
+  font-weight: 500;
 }
 
-.social-links {
-  width: 50%;
-  overflow: hidden;
+.social-links ul li h3 {
+  color:rgb(101, 223, 19);
 }
-.social {
+.social-links ul li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+}
+
+.social-links ul li a:hover {
+  color: rgb(0, 0, 0);
+}
+
+.social li {
   display: inline;
-  margin-bottom: 20px;
+  padding-right: 10px;
 }
 
-.social-links a {
-  text-decoration: none;
-  font-size: 20px;
+.menu-links li {
+  margin-bottom: 10px;
 }
-.social-links li {
-  text-decoration: none;
-  padding-top: 15px;
+
+.ionicon {
+  width: 30px;
+  height: 30px;
 }
-.social-links li a {
+
+.mt-5 {
+  width: 1200px;
+  color: white;
+}
+.design li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+}
+.design li a:hover {
+  color: #df480c;
+}
+
+.design li {
+  list-style: none;
+  float: right;
+  color:rgb(235, 19, 19);
+  font-weight: bold;
+}
+
+.design {
+  width: 100%;
+  margin-top: 20px;
+  float: right;
+}
+
+.copy li {
+  list-style: none;
+  float: left;
+  font-weight: bold;
   color: white;
 }
 
-.social-links li a:hover {
-  color: yellow;
-}
-p {
-  color: white;
-}
-
-.social-link ul {
-  list-style: none;
+.copy {
+  width: 100%;
+  margin-top: 20px;
+  float: right;
 }
 
-.design-attribute {
-  margin: 30px 0 0 0;
-  color: rgb(248, 248, 248);
-  font-size: 18px;
-  list-style: none;
-}
-
-/* -----
-SVG Icons - svgicons.sparkk.fr
-         ----- */
-
-.svg-icon {
-  width: 1.5em;
-  height: 1.5em;
-}
-
-.svg-icon path,
-.svg-icon polygon,
-.svg-icon rect {
-  fill: #f6f6f6;
-}
-
-.svg-icon circle {
-  stroke: #4691f6;
-  stroke-width: 1;
-}
-
-span {
-  width: 10%;
-}
 /*------------------------------------------------ */
 /* MEDIA QUERIES CODES                    */
 /*------------------------------------------------*/
@@ -447,10 +455,9 @@ span {
     font-size: 14px;
   }
 
- .navbar li {
-
-  font-size: 14px;
- }
+  .navbar li {
+    font-size: 14px;
+  }
   .logo {
     width: 200px;
     height: 150px;
@@ -547,96 +554,21 @@ span {
   .map {
     margin-right: 800px;
   }
-  .kga-footer {
-    width: 100%;
-    height: 250px;
-    margin: 0;
-    display: flex;
-    flex-wrap: wrap;
-    overflow: hidden;
-  }
-
-  .kga-footer p {
-    float: left;
-    font-size: 30px;
-  }
-
-  .contact-section {
-    width: 50%;
-    margin: 20px 0 0 0;
-  }
-  .contact p {
-    margin: 0;
-    padding: 0.2em;
-  }
-  .social-links {
-    width: 500%;
-    margin: 20px 0 0 0;
-    overflow: hidden;
-  }
-
-  .contact-section p,
-  .social-links p {
-    font-size: 10px;
-  }
-
-  .kga-footer h3 {
-    font-size: 12px;
-  }
-  .address,
-  .phone {
-    font-size: 12px;
-    text-align: left;
-  }
-
-  .social li {
-    margin: 0 0 0 5px;
-  }
-  .social-links li {
-    text-decoration: none;
-
-    margin: 0;
-    padding: 0;
-  }
-  .footer-attribute {
-    width: 100%;
-  }
-
-  .design-attribute li {
-    font-size: 5px;
-    width: 100%;
-  }
 
   h2 {
     margin-top: 5px;
   }
 
-  /* -----
-SVG Icons - svgicons.sparkk.fr
------ */
-
-  .svg-icon {
-    width: 0.9em;
-    height: 0.9em;
-    float: left;
+  .main-footer {
+    width: 100%;
+    height: 48rem;
   }
-
-  .svg-icon path,
-  .svg-icon polygon,
-  .svg-icon rect {
-    fill: #4691f6;
+  .design {
+    margin-top: 10px;
   }
-
-  .svg-icon circle {
-    stroke: #4691f6;
-    stroke-width: 1;
-  }
-  .social-links a {
-    font-size: 10px;
-  }
-  .enquiries {
-    font-size: 16px;
-  }
+  /* .design li a {
+    margin-left: -5px;
+  } */
 }
 
 /* Portrait and Landscape */
@@ -656,9 +588,8 @@ SVG Icons - svgicons.sparkk.fr
   }
 
   .navbar li {
-
     font-size: 14px;
-   }
+  }
   .nav-link {
     margin-left: 100px;
 
@@ -680,6 +611,15 @@ SVG Icons - svgicons.sparkk.fr
   .kga-services h2 {
     font-size: 17px;
   }
+
+  .eggs-section .jumbo-services .services-image{
+
+    text-align: center;
+
+
+    
+    
+  }
   .jumbo-box {
     margin-top: 200px;
   }
@@ -695,7 +635,7 @@ SVG Icons - svgicons.sparkk.fr
   }
 
   .gmnoprint {
-    margin-left: 5px;
+    margin-left: 20px;
   }
   .kga-footer {
     height: 300px;
@@ -750,12 +690,9 @@ SVG Icons - svgicons.sparkk.fr
   }
 }
 
-
 /* 2436x1125px at 458ppi */
 
-@media only screen and (device-width : 375px) and (device-height : 812px) 
-    and (-webkit-device-pixel-ratio : 3) {
-
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
   .container {
     overflow: hidden;
   }
@@ -765,7 +702,6 @@ SVG Icons - svgicons.sparkk.fr
   }
 
   .navbar li {
-
     font-size: 20px;
   }
   .logo {
