@@ -216,6 +216,7 @@ a {
 }
 .jumbotron {
   margin-bottom: 20px;
+  overflow: hidden;
 }
 
 .jumbo-box {
@@ -441,6 +442,10 @@ a {
   float: right;
 }
 
+.ionicon {
+
+  fill: white;
+}
 /*------------------------------------------------ */
 /* MEDIA QUERIES CODES                    */
 /*------------------------------------------------*/
